@@ -12,6 +12,7 @@ import LoginPage from "@/pages/Login";
 import NotFound from "@/pages/NotFound";
 import ProtectedRoute from "@/components/ProtectedRoute";
 import Analytics from "./pages/Analytics";
+import AddAdmin from "@/pages/AddAdmin";
 
 const App = () => (
   <TooltipProvider>
@@ -29,6 +30,7 @@ const App = () => (
             <Route path="/parcel/:id" element={<ParcelDetails />} />
             <Route path="/tracking" element={<ParcelTracking />} />
             <Route path="/analytics" element={<Analytics />} />
+            <Route path="/add-admin" element={<AddAdmin />} />
           </Route>
         </Route>
 
