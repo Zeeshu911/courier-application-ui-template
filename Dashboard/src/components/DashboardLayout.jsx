@@ -14,10 +14,6 @@ export function DashboardLayout() {
               <h2 className="text-sm font-medium text-muted-foreground hidden sm:block">SwiftPak Courier Management System</h2>
             </div>
             <div className="flex items-center gap-2">
-              <Button variant="ghost" size="icon" className="relative">
-                <Bell className="h-4 w-4"/>
-                <span className="absolute -top-0.5 -right-0.5 h-3 w-3 rounded-full bg-secondary text-[8px] font-bold text-secondary-foreground flex items-center justify-center">3</span>
-              </Button>
               <Button variant="ghost" size="icon" className="rounded-full bg-primary/10">
                 <User className="h-4 w-4 text-primary"/>
               </Button>
